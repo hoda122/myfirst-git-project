@@ -12,14 +12,9 @@ jobs:
     runs-on: ubuntu-latest  
 
     steps:
-      - name: 'testing github action'
-        run: pwd 
-
-
-      - name: 'before'
-        run: ls
-
       - uses: actions/checkout@v3
 
-      - name: 'after'
-        run: ls
+
+      -name: "login to Docker Hub"
+      run : docker login --username hoda122 --password dckr_pat_MOQeM5GVTDU0wTfA2vwVSNkav5U
+    
