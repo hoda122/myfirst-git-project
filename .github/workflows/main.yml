@@ -12,5 +12,9 @@ jobs:
     runs-on: ubuntu-latest  
 
     steps:
-      - name: 'testimg github action'
+      - name: 'testing github action'
+        run: pwd 
+
+
+         - name: 'testing printing'
         run: echo Hoda
